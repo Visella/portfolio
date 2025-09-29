@@ -1,7 +1,7 @@
 export const profile = {
   name: "Visella",
-  title: "Aspiring Software Engineer",
-  summary: "Developing websites, mobile, and desktop apps, with an interest in AI and cloud.",
+  title: "Software Laboratory Assistant",
+  summary: "Passionate about web, mobile, and desktop development",
   location: "Jakarta, Indonesia",
   email: "sellavisella@gmail.com",
   phone: "(+62) 895 3822 14190",
@@ -69,7 +69,7 @@ export const profile = {
       image: "/vortekia.png",
       description:
         "Desktop app optimizing amusement park operations with role-based access, real-time notifications, and UIs for staff, customers, and management to handle queues, orders, and logistics.",
-      link: "https://github.com/",
+      link: "https://github.com/Visella/vortekia",
       features: [
         "Role-based dashboards for staff, customers, and management",
         "Real-time queue updates and order tracking",
@@ -84,7 +84,7 @@ export const profile = {
       image: "/listit.png",
       description:
         "Mobile app for smart grocery lists with AI-powered recipe recommendations using NLP to improve shopping efficiency and reduce waste.",
-      link: "https://github.com/",
+      link: "https://github.com/Visella/listit",
       features: ["Smart list suggestions", "Recipe recommendations", "Cross-device sync"],
       contribution: "Implemented Compose UI and NLP recipe recommendation workflow.",
       screenshots: ["/listit.png"],
@@ -95,7 +95,7 @@ export const profile = {
       image: "/aycom.png",
       description:
         "Web social platform for thread-based conversations with Go microservices (gRPC), PostgreSQL, and Flask-powered sentiment analysis.",
-      link: "https://github.com/",
+      link: "https://github.com/Visella/aycom",
       features: ["Threaded discussions", "Realtime likes and replies", "Trending topics"],
       contribution: "Built Svelte front-end and integrated Flask sentiment microservice.",
       screenshots: ["/aycom.png"],
@@ -117,7 +117,7 @@ export const profile = {
       image: "/ecoai.png",
       description:
         "AI-powered eco-diary that tracks habits, scans waste, monitors footprint, and features social challenges and progress dashboards.",
-      link: "https://github.com/",
+      link: "https://github.com/Visella/ecoai",
       features: ["Waste scanner", "Green challenges", "Progress dashboards"],
       contribution: "Led the ML integration and designed the habit tracking UX.",
       screenshots: ["/ecoai.png"],

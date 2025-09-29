@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { profile } from "@/data/profile";
 
 function openPDF() {
-  window.open("CV.pdf", "_blank");
+  window.open("Visella-CV.pdf", "_blank");
 }
 
 export function Hero() {

@@ -14,7 +14,7 @@ const links = [
 ];
 
 function openPDF() {
-  window.open("CV.pdf", "_blank");
+  window.open("Visella-CV.pdf", "_blank");
 }
 
 export function Navbar() {
@@ -41,7 +41,7 @@ export function Navbar() {
                   <Link
                     href={l.href}
                     className={cn(
-                      "relative block rounded-full px-4 py-2 text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+                      "font-mono relative block rounded-full px-4 py-2 text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
                     )}
                   >
                     {active && (
@@ -66,7 +66,7 @@ export function Navbar() {
                 size="sm"
                 variant="outline"
                 onClick={openPDF}
-                className="cursor-pointer rounded-full border-primary/40 text-primary hover:bg-primary/15 bg-transparent hover-raise"
+                className="font-mono cursor-pointer rounded-full border-primary/40 text-primary hover:bg-primary/15 bg-transparent hover-raise"
               >
                 <a
                   target="_blank"
@@ -118,7 +118,7 @@ export function Navbar() {
                         <Link
                           href={l.href}
                           className={cn(
-                            "block rounded-xl px-4 py-3 text-base font-medium hover:bg-primary/10 hover:text-primary transition-colors",
+                            "font-mono block rounded-xl px-4 py-3 text-base font-medium hover:bg-primary/10 hover:text-primary transition-colors",
                             active && "bg-primary/10 text-primary"
                           )}
                         >
@@ -128,14 +128,13 @@ export function Navbar() {
                     );
                   })}
                   <li>
-                    <a
-                      href="/cv"
-                      target="_blank"
+                    <button
+                      onClick={openPDF}
                       rel="noopener noreferrer"
-                      className="block rounded-xl px-4 py-3 text-base font-medium border border-border/60 hover:bg-primary/10 hover:text-primary"
+                      className="font-mono block rounded-xl px-4 py-3 mb-3 text-base font-medium border border-border/60 hover:bg-primary/10 hover:text-primary"
                     >
                       View CV
-                    </a>
+                    </button>
                   </li>
                 </ul>
               </nav>
