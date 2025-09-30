@@ -168,13 +168,13 @@
 
 @layer utilities {
   .chip {
-    @apply rounded-full border border-border/60 bg-background/40 px-3 py-1 text-xs text-foreground/80 backdrop-blur;
+    @apply rounded-full border border-border/60 bg-background/40 px-3 py-1 text-xs text-foreground backdrop-blur;
   }
   .btn-primary {
     @apply inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground;
   }
   .btn-ghost {
-    @apply inline-flex items-center gap-2 rounded-full border border-border/60 bg-transparent px-4 py-2 text-sm font-medium text-foreground/80;
+    @apply inline-flex items-center gap-2 rounded-full border border-border/60 bg-transparent px-4 py-2 text-sm font-medium text-foreground;
   }
 
   .hover-raise {

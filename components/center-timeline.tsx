@@ -41,12 +41,12 @@ export function CenterTimeline({ items }: { items: Item[] }) {
             <div className="mt-5 w-full max-w-2xl rounded-xl border border-border/60 bg-card/60 p-4 backdrop-blur-md">
               <div className="flex flex-wrap items-baseline justify-center gap-2">
                 <h3 className="font-semibold text-primary">{it.title || it.org}</h3>
-                {it.date && <span className="text-xs text-muted-foreground">{it.date}</span>}
+                {it.date && <span className="text-xs text-foreground">{it.date}</span>}
               </div>
-              {it.role && <p className="text-sm text-muted-foreground">{it.role}</p>}
-              {it.location && <p className="text-xs text-muted-foreground/80">{it.location}</p>}
+              {it.role && <p className="text-sm text-foreground">{it.role}</p>}
+              {it.location && <p className="text-xs text-foreground/80">{it.location}</p>}
               {it.bullets && (
-                <ul className="mt-2 list-disc space-y-1 text-left text-sm text-muted-foreground/90 md:px-8 px-5">
+                <ul className="mt-2 list-disc space-y-1 text-left text-sm text-foreground md:px-8 px-5">
                   {it.bullets.map((b, idx) => (
                     <li key={idx}>{b}</li>
                   ))}

@@ -41,7 +41,7 @@ export function Navbar() {
                   <Link
                     href={l.href}
                     className={cn(
-                      "font-mono relative block rounded-full px-4 py-2 text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+                      "font-mono relative block rounded-full px-4 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
                     )}
                   >
                     {active && (

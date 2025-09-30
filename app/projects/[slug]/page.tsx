@@ -46,7 +46,6 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
         </div>
 
         <h1 className="text-3xl md:text-4xl font-semibold">{name}</h1>
-        {subtitle ? <p className="mt-2 text-muted-foreground">{subtitle}</p> : null}
 
         <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
           {badges.map((b) => (
