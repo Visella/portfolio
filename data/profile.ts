@@ -6,7 +6,7 @@ export const profile = {
   email: "sellavisella@gmail.com",
   phone: "(+62) 895 3822 14190",
   linkedin: "https://linkedin.com/in/visellaa",
-  github: "https://github.com/visellaa",
+  github: "https://github.com/visella",
   whatsapp: "https://wa.me/62895382214190",
   education: [
     {
