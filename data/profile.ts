@@ -110,7 +110,7 @@ export const profile = {
       link: "",
       features: ["Procedural dungeons", "A* pathfinding", "Upgradeable skills"],
       contribution: "Implemented dungeon generation and combat systems.",
-      screenshots: ["/roguehh.png"],
+      screenshots: ["/roguehh.png", "/roguehh (1).png", "/roguehh (2).png", "/roguehh (3).png"],
     },
     {
       title: "EcoAI",
