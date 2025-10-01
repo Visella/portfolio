@@ -90,15 +90,6 @@ export function Hero() {
               >
                 <Mail size={18} />
               </a>
-              <a
-                href={profile.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="inline-flex size-10 items-center justify-center rounded-lg border border-primary/30 bg-primary/10 text-primary hover:bg-primary/15 transition-colors"
-              >
-                <Phone size={18} />
-              </a>
             </div>
           </div>
         </motion.div>

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 type Project = {
@@ -18,7 +18,7 @@ const slugify = (s: string) =>
     .replace(/(^-|-$)+/g, "");
 
 export function ProjectCard({ p }: { p: Project }) {
-  const slug = slugify(p.title)
+  const slug = slugify(p.title);
   return (
     <Card className="group overflow-hidden rounded-3xl border-border/60 bg-card/60 backdrop-blur transition-all duration-300 hover:shadow-2xl hover:-translate-y-0.5">
       <div className="relative aspect-[16/10] w-full">
@@ -35,10 +35,11 @@ export function ProjectCard({ p }: { p: Project }) {
           aria-hidden
         />
       </div>
-      <CardHeader className="pb-2">
+      <CardHeader>
         <CardTitle className="text-lg">{p.title}</CardTitle>
       </CardHeader>
       <CardContent className="flex flex-col gap-3">
+        <p className="prose-strong">{p.description}</p>
         <div className="flex flex-wrap gap-2">
           {p.tech.map((t) => (
             <span

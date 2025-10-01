@@ -7,7 +7,6 @@ export const profile = {
   phone: "(+62) 895 3822 14190",
   linkedin: "https://linkedin.com/in/visellaa",
   github: "https://github.com/visella",
-  whatsapp: "https://wa.me/62895382214190",
   education: [
     {
       school: "BINUS University",
@@ -34,14 +33,19 @@ export const profile = {
       role: "Vice Coordinator TECHNO PBP",
       location: "Alam Sutera, Tangerang Selatan",
       date: "March 2024",
-      bullets: ["Assisted in coordinating Pengenalan Bahasa Pemrograman (PBP)."],
+      bullets: [
+        "Assisted in coordinating Pengenalan Bahasa Pemrograman (PBP).",
+      ],
     },
     {
       org: "KMBD BINUS University",
       role: "Public Relation DV Teach",
       location: "Alam Sutera, Tangerang Selatan",
       date: "August 2024",
-      bullets: ["Part of PR team for DV Teach (volunteer teaching program).", "Responsible for outreach with temples."],
+      bullets: [
+        "Part of PR team for DV Teach (volunteer teaching program).",
+        "Responsible for outreach with temples.",
+      ],
     },
     {
       org: "Apple Developer Academy @ BINUS",
@@ -55,7 +59,8 @@ export const profile = {
     },
   ],
   skills: {
-    languages: "JavaScript, TypeScript, Python, Go, Rust, C, C#, Java, Kotlin, Bash",
+    languages:
+      "JavaScript, TypeScript, Python, Go, Rust, C, C#, Java, Kotlin, Bash",
     frontend: "React, Svelte, Next.js, Tauri, Laravel, Tailwind CSS",
     backend: "Gin (Go), Flask, Next.js, REST APIs, Laravel, Express.js",
     ai: "Regression, DCNN",
@@ -75,20 +80,11 @@ export const profile = {
         "Real-time queue updates and order tracking",
         "Offline-ready desktop build via Tauri",
       ],
-      contribution: "Led the UI architecture, designed Tauri integration, and implemented real-time updates.",
+      contribution:
+        "Led the UI architecture, designed Tauri integration, and implemented real-time updates.",
       screenshots: ["/vortekia.png"],
     },
-    {
-      title: "ListIt",
-      tech: ["Android Studio", "Kotlin", "Express", "Firebase"],
-      image: "/listit.png",
-      description:
-        "Mobile app for smart grocery lists with AI-powered recipe recommendations using NLP to improve shopping efficiency and reduce waste.",
-      link: "https://github.com/Visella/listit",
-      features: ["Smart list suggestions", "Recipe recommendations", "Cross-device sync"],
-      contribution: "Implemented Compose UI and NLP recipe recommendation workflow.",
-      screenshots: ["/listit.png"],
-    },
+
     {
       title: "AY.com",
       tech: ["Svelte", "CSS", "Go", "PostgreSQL", "Redis", "Flask", "Supabase"],
@@ -96,8 +92,13 @@ export const profile = {
       description:
         "Web social platform for thread-based conversations with Go microservices (gRPC), PostgreSQL, and Flask-powered sentiment analysis.",
       link: "https://github.com/Visella/aycom",
-      features: ["Threaded discussions", "Realtime likes and replies", "Trending topics"],
-      contribution: "Built Svelte front-end and integrated Flask sentiment microservice.",
+      features: [
+        "Threaded discussions",
+        "Realtime likes and replies",
+        "Trending topics",
+      ],
+      contribution:
+        "Built Svelte front-end and integrated Flask sentiment microservice.",
       screenshots: ["/aycom.png"],
     },
     {
@@ -114,13 +115,30 @@ export const profile = {
     {
       title: "EcoAI",
       tech: ["Android", "Kotlin", "Jetpack Compose", "Firebase"],
-      image: "/ecoai.png",
+      image: "/ecoai (1).png",
       description:
         "AI-powered eco-diary that tracks habits, scans waste, monitors footprint, and features social challenges and progress dashboards.",
       link: "https://github.com/Visella/ecoai",
       features: ["Waste scanner", "Green challenges", "Progress dashboards"],
-      contribution: "Led the ML integration and designed the habit tracking UX.",
-      screenshots: ["/ecoai.png"],
+      contribution:
+        "Led the ML integration and designed the habit tracking UX.",
+      screenshots: ["/ecoai (1).png", "/ecoai (2).png", "/ecoai.png"],
+    },
+    {
+      title: "ListIt",
+      tech: ["Android Studio", "Kotlin", "Express", "Firebase"],
+      image: "/listit.png",
+      description:
+        "Mobile app for smart grocery lists with AI-powered recipe recommendations using NLP to improve shopping efficiency and reduce waste.",
+      link: "https://github.com/Visella/listit",
+      features: [
+        "Smart list suggestions",
+        "Recipe recommendations",
+        "Cross-device sync",
+      ],
+      contribution:
+        "Implemented Compose UI and NLP recipe recommendation workflow.",
+      screenshots: ["/listit.png"],
     },
   ],
   achievements: [
@@ -133,6 +151,6 @@ export const profile = {
       image: "/sikat.png",
     },
   ],
-}
+};
 
-export const projects = (profile as any).projects
+export const projects = (profile as any).projects;

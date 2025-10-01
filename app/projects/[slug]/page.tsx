@@ -45,7 +45,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
           </Link>
         </div>
 
-        <h1 className="text-3xl md:text-4xl font-semibold">{name}</h1>
+        <h1 className="text-3xl md:text-4xl font-semibold">{name}</h1>  
 
         <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
           {badges.map((b) => (
@@ -124,13 +124,13 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
           </ul>
         </section>
       ) : null}
-
+{/* 
       {contribution ? (
         <section className="mx-auto mt-12 max-w-3xl">
           <h2 className="prose-section-title">My Role & Contribution</h2>
           <p className="prose-strong mt-3">{contribution}</p>
         </section>
-      ) : null}
+      ) : null} */}
 
       {screenshots.length ? (
         <section className="mx-auto mt-12 max-w-6xl">
