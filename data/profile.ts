@@ -82,7 +82,7 @@ export const profile = {
       ],
       contribution:
         "Led the UI architecture, designed Tauri integration, and implemented real-time updates.",
-      screenshots: ["/vortekia.png"],
+      screenshots: ["/vortekia.png", "/vortekia (1).png", "/vortekia (2).png", "/vortekia (3).png", "/vortekia (4).png", "/vortekia (5).png", "/vortekia (6).png", "/vortekia (7).png", "/vortekia (8).png"],
     },
 
     {
@@ -122,7 +122,7 @@ export const profile = {
       features: ["Waste scanner", "Green challenges", "Progress dashboards"],
       contribution:
         "Led the ML integration and designed the habit tracking UX.",
-      screenshots: ["/ecoai (1).png", "/ecoai (2).png", "/ecoai.png"],
+      screenshots: ["/ecoai (1).png", "/ecoai (2).png", "/ecoai (3).png", "/ecoai (4).png","/ecoai (5).png", "/ecoai (6).png"],
     },
     {
       title: "ListIt",
